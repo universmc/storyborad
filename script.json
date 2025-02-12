@@ -1,0 +1,73 @@
+{
+    "title": "Le Stickman et l'IA : Une histoire de NFT",
+    "acts": [
+      {
+        "title": "Acte 1 : La naissance d'une idée (15 minutes)",
+        "scenes": [
+          {
+            "description": "Présentation du Stickman : Un artiste de rue, un peu débordé, cherchant à gagner sa vie.",
+            "duration": "5 minutes"
+          },
+          {
+            "description": "Découverte de l'IA : Il découvre par hasard une IA capable de générer des images à partir de descriptions textuelles.",
+            "duration": "5 minutes"
+          },
+          {
+            "description": "L'idée géniale : Il réalise le potentiel de l'IA pour créer des œuvres d'art uniques et les vendre sous forme de NFT.",
+            "duration": "5 minutes"
+          }
+        ]
+      },
+      {
+        "title": "Acte 2 : L'apprentissage et le prototypage (30 minutes)",
+        "scenes": [
+          {
+            "description": "Phase d'apprentissage : Le Stickman explore les capacités de l'IA, apprend à lui donner des instructions précises et à interpréter ses résultats.",
+            "duration": "15 minutes"
+          },
+          {
+            "description": "Création d'un prototype : Il commence par créer des prototypes simples de NFTs, en expérimentant différents styles et techniques.",
+            "duration": "10 minutes"
+          },
+          {
+            "description": "Analyse des résultats : Il utilise les données fournies par l'IA pour améliorer ses créations.",
+            "duration": "5 minutes"
+          }
+        ]
+      },
+      {
+        "title": "Acte 3 : La production et la promotion (25 minutes)",
+        "scenes": [
+          {
+            "description": "Production à grande échelle : Le Stickman met en place une chaîne de production automatisée pour créer de nombreux NFTs.",
+            "duration": "10 minutes"
+          },
+          {
+            "description": "Stratégie de marketing : Il développe une stratégie de marketing en ligne, en utilisant les réseaux sociaux et les influenceurs.",
+            "duration": "10 minutes"
+          },
+          {
+            "description": "Lancement de la boutique en ligne : Il crée une boutique en ligne pour vendre ses NFT et suit les ventes en temps réel.",
+            "duration": "5 minutes"
+          }
+        ]
+      },
+      {
+        "title": "Acte 4 : Le succès et les défis (10 minutes)",
+        "scenes": [
+          {
+            "description": "Le succès : Les NFTs du Stickman rencontrent un succès fulgurant.",
+            "duration": "3 minutes"
+          },
+          {
+            "description": "Les défis : Il doit faire face à la concurrence, à la volatilité du marché des NFT et à de nouveaux défis liés à la gestion de sa popularité.",
+            "duration": "5 minutes"
+          },
+          {
+            "description": "Le futur : Le Stickman envisage l'avenir et réfléchit aux nouvelles possibilités offertes par l'IA.",
+            "duration": "2 minutes"
+          }
+        ]
+      }
+    ]
+  }

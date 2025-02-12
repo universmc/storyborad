@@ -1,0 +1,20 @@
+{
+    "prompt_structure": {
+      "page_type": "index", // ou "about", "contact", "product" etc.
+      "style": "modern", // ou "minimaliste", "vintage", "futuriste" etc.
+      "purpose": "présenter les produits", // ou "informer", "vendre", "engager" etc.
+      "audience": "jeunes adultes", // ou "seniors", "professionnels", "grand public" etc.
+      "tonalité": "dynamique", // ou "sérieux", "ludique", "élégant" etc.
+      "éléments_clé": ["hero section", "call to action", "footer"], // liste des éléments essentiels
+      "contraintes": "responsive design", // ou "compatibilité mobile", "faible temps de chargement" etc.
+      "inspiration": "Dribbble", // ou "Behance", "un site concurrent" etc.
+    },
+    "exemple_prompt": "Crée un wireframe pour une page d'accueil moderne, destinée à un public de jeunes adultes, avec une section héro attrayante, un appel à l'action clair et un pied de page informatif. Le design doit être responsive et s'inspirer des tendances actuelles sur Dribbble.",
+    "conseils": [
+      "Sois aussi précis que possible dans ta description.",
+      "Utilise des verbes d'action pour guider la génération.",
+      "Expérimente avec différents styles et éléments.",
+      "N'hésite pas à fournir des exemples visuels.",
+      "Itère sur ton prompt jusqu'à obtenir le résultat souhaité."
+    ]
+  }

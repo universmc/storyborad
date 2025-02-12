@@ -1,0 +1,36 @@
+{
+    "prompt": {
+        "description": "Un prompt est une instruction concise et précise donnée à un modèle de langage pour générer du texte ou du code. Il sert de point de départ pour la création de contenu, qu'il s'agisse d'un article de blog, d'un script, ou d'une page web.",
+        "importance_wireframe": "Les wireframes sont essentiels pour visualiser la structure et l'organisation d'une page web avant de passer à la conception visuelle. Ils permettent de définir la hiérarchie des éléments, les interactions utilisateur et l'agencement général.",
+        "exemple_page_index": "La page d'accueil (index) est souvent la première page qu'un utilisateur voit lorsqu'il visite un site web. Elle doit être claire, concise et inciter l'utilisateur à explorer davantage."
+    },
+    "elements_clefs_prompt": [
+        {
+            "element": "Contexte",
+            "description": "Définir le sujet, le ton et l'objectif de la page. Exemple : 'Écrire une page d'accueil pour un site web de e-commerce vendant des vêtements bio pour enfants, avec un ton chaleureux et familial.'"
+        },
+        {
+            "element": "Public cible",
+            "description": "Identifier le profil des utilisateurs pour adapter le contenu et le langage. Exemple : 'Les parents de jeunes enfants soucieux de l'environnement.'"
+        },
+        {
+            "element": "Structure",
+            "description": "Décrire la composition de la page : en-tête, contenu principal, pied de page, etc. Exemple : 'En-tête avec logo et menu de navigation, section héros avec une image et un slogan, puis des sections mettant en avant les produits phares et les avantages du site.'"
+        },
+        {
+            "element": "Contenu",
+            "description": "Spécifier les éléments textuels et visuels à inclure. Exemple : 'Texte de présentation, appel à l'action, témoignages clients, formulaire d'inscription à la newsletter.'"
+        },
+        {
+            "element": "Style",
+            "description": "Définir l'aspect visuel de la page : couleurs, typographie, espacement. Exemple : 'Couleurs douces et naturelles, typographie ronde et lisible, mise en page aérée.'"
+        }
+    ],
+    "outils_wireframing": [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "Balsamiq",
+        "Lucidchart"
+    ]
+}

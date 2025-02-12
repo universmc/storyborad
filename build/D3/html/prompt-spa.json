@@ -1,0 +1,43 @@
+{
+    "prompt": "Générer un prompt pour la création d'une page web",
+    "description": "Ce prompt a pour objectif de fournir une structure claire et concise pour générer des descriptions, des wireframes et des pages web personnalisés en fonction de paramètres spécifiques. Il peut être utilisé pour automatiser certaines tâches de conception et de développement web.",
+    "parameters": {
+      "typePage": {
+        "description": "Type de page à générer (ex : SinglePage, MultiPage, eCommerce)",
+        "default": "SinglePage"
+      },
+      "style": {
+        "description": "Style visuel de la page (ex : modern, vintage, minimaliste)",
+        "default": "modern"
+      },
+      "theme": {
+        "description": "Thème principal de la page (ex : portfolio, blog, landing page)",
+        "default": "portfolio"
+      },
+      "contenu": {
+        "description": "Contenu principal de la page (ex : texte, images, vidéos, formulaires)",
+        "default": "texte"
+      },
+      "technologie": {
+        "description": "Technologies utilisées pour la création de la page (ex : HTML, CSS, JavaScript, node)",
+        "default": "HTML, CSS, JavaScript"
+      },
+      "style_code": {
+        "description": "Code CSS spécifique pour personnaliser le style (optionnel)",
+        "default": ""
+      }
+    },
+    "examples": [
+      {
+        "prompt": "SinglePage, style:vintage, Topic:ASCII_art",
+        "description": "Générer une page web à une seule page avec un style vintage, utilisant l'art ASCII comme élément visuel principal."
+      },
+      {
+        "prompt": "MultiPage, style:minimaliste, Theme:blog, Contenu:texte, images",
+        "description": "Créer un blog multi-pages avec un design minimaliste, contenant du texte et des images."
+      }
+    ],
+    "output": {
+      "description": "Le prompt générera une description textuelle de la page, un wireframe (schéma de la structure de la page) et potentiellement du code HTML/CSS de base pour la page."
+    }
+  }

@@ -1,0 +1,31 @@
+{
+    "prompt": {
+    "description": "Générer une page web dynamique et interactive, avec un style futuriste, centrée sur le thème de la nature.",
+    "framework": {
+        "type": "Single Page Application (SPA)",
+        "technologie": "React"
+    },
+    "pageWeb": {
+        "style": "futuriste",
+        "theme": "nature",
+        "fonctionnalites": [
+            "Animation fluide des éléments",
+            "Intégration de données en temps réel (météo, actualités environnementales)",
+            "Personnalisation de l'expérience utilisateur",
+            "Mode sombre/clair",
+            "Réactivité sur tous les appareils"
+        ]
+    }
+    },
+    "recommandations": {
+        "bibliothèques": [{
+            "Framer Motion" : "Pour des animations fluides",
+            "React Query" : "Pour la gestion des données",
+            "Material UI" : "Pour un design futuriste" 
+    }],
+    "outils": [{
+        "Figma" : "Pour la conception UI/UX",
+        "Vite" : "Pour un développement rapide"
+    }]
+    }
+}

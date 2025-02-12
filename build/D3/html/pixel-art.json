@@ -1,0 +1,31 @@
+{
+    "prompt": {
+      "description": "Générer un wireframe détaillé d'une page web unique (Single Page Application) au design moderne, centré autour du thème du pixel art.",
+      "parameters": {
+        "layout": "SinglePage",
+        "style": "modern",
+        "theme": "pixel_art",
+        "specifics": {
+          "header": {
+            "logo": "Logo pixel art personnalisé",
+            "navigation": "Menu horizontal avec icônes pixel art",
+            "search_bar": "Présente"
+          },
+          "content": {
+            "hero_section": "Image d'arrière-plan en pixel art animée, titre et sous-titre accrocheurs",
+            "sections": [
+              "Galerie de pixel art interactives",
+              "Tutoriels en vidéo",
+              "Section communauté avec forum et chat"
+            ],
+            "footer": "Mentions légales, réseaux sociaux, copyright"
+          },
+          "color_palette": "Couleurs vives et contrastées, typiques du pixel art",
+          "typography": "Polices d'écriture rétro ou pixelisées",
+          "interactions": "Effets de transition, animations, éléments cliquables"
+        }
+      }
+    },
+    "output_format": "Image (PNG, SVG) de haute qualité, format vectoriel pour une meilleure scalabilité",
+    "additional_notes": "Pour une personnalisation plus poussée, vous pouvez ajouter des détails spécifiques tels que le nombre de colonnes, la taille des éléments, ou des références visuelles à des sites existants. Les outils comme Figma, Sketch ou Adobe XD peuvent être utilisés pour créer des wireframes interactifs à partir de ce prompt."
+  }

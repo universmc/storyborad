@@ -1,0 +1,53 @@
+{
+    "prompt": {
+      "description": "Générer un prompt détaillé pour la création de wireframes de pages web, en tenant compte des spécifications techniques et esthétiques.",
+      "objectif": "Fournir une base solide pour la conception d'interfaces utilisateur intuitives et visuellement attrayantes.",
+      "format": "JSON"
+    },
+    "structure": {
+      "type_de_page": "SinglePage",
+      "style": "futuriste",
+      "thème": "ASCII_art", 
+      "couleurs": ["#000000", "#FFFFFF", "#2196F3"], 
+      "typographie": "Roboto",
+      "réactivité": true,
+      "accessibilité": true,
+      "animations": true, 
+      "interactions": {
+        "hover": "changement de couleur",
+        "clic": "modal, redirection",
+        "scroll": "parallaxe, révélation"
+      }
+    },
+    "contenu": {
+      "en-tête": {
+        "logo": "ASCII",
+        "menu": ["Accueil", "À propos", "Contact"],
+        "boutons": ["S'inscrire", "Se connecter"]
+      },
+      "corps": {
+        "sections": [
+          {
+            "titre": "Bienvenue dans le monde de l'ASCII Art",
+            "texte": "Découvrez l'art de créer des images à partir de caractères.",
+            "image": "exemple_ascii_art.png",
+            "appel_a_l_action": "Créer mon ASCII Art"
+          },
+          {
+            "titre": "Nos outils",
+            "liste": ["Éditeur en ligne", "Galerie", "Tutoriels"]
+          }
+        ]
+      },
+      "pied_de_page": {
+        "copyright": "© 2023 ASCII Art",
+        "mentions_legales": "Lien vers les mentions légales",
+        "reseaux_sociaux": ["Facebook", "Twitter", "Instagram"]
+      }
+    },
+    "contraintes_techniques": {
+      "framework": "React",
+      "bibliothèque_css": "Materialize", 
+      "outils": "Figma, Adobe XD"
+  }
+}

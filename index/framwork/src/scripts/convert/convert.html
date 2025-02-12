@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<input type="text" id="binaryInput" placeholder="Nombre binaire">
+<button onclick="binaryToHexa()">Convertir en hexadécimal</button>
+<p id="hexaResult"></p>
+
+<input type="text" id="hexaInput" placeholder="Nombre hexadécimal">
+<button onclick="hexaToBinary()">Convertir en binaire</button>
+<p id="binaryResult"></p>
+
+<script>
+  // ... votre JavaScript existant ...
+
+  function binaryToHexa() {
+    const binary = document.getElementById('binaryInput').value;
+    const result = ipcRenderer.sendSync('binary-to-hexa', binary);
+    document.getElementById('hexaResult').textContent = result;
+  }
+
+  function hexaToBinary() {
+    const hexa = document.getElementById('hexaInput').value;
+    const result = ipcRenderer.sendSync('hexa-to-binary', hexa);
+    document.getElementById('binaryResult').textContent = result;
+  }
+
+  ipcRenderer.on('reply', (event, arg) => {
+    // Vous pouvez utiliser cette fonction pour gérer d'autres types de réponses
+  });
+</script>
+</body>

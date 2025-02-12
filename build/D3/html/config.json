@@ -1,0 +1,46 @@
+{
+    "description": "Configuration pour la génération de pages web personnalisées à partir de prompts.",
+    "framework": "bootrap",
+    "page": {
+        "type": "SinglePage",
+        "style": "futuriste",
+        "topic": "Intelligence_Artificielle"
+    },
+    "composants": {
+        "header": {
+            "titre": "Mon application IA",
+            "sousTitre": "Découvrez les merveilles de l'intelligence artificielle",
+            "logo": "logo.png"
+        },
+        "contenu": {
+            "sections": [
+                {
+                    "titre": "Qu'est-ce que l'IA ?",
+                    "texte": "L'intelligence artificielle est...",
+                    "image": "ia.jpg"
+                },
+                {
+                    "titre": "Applications de l'IA",
+                    "liste": [
+                        "Reconnaissance faciale",
+                        "Traduction automatique",
+                        "Voitures autonomes"
+                    ]
+                }
+            ]
+        },
+        "footer": {
+            "copyright": "© 2023 Mon Application IA"
+        }
+    },
+    "styles": {
+        "couleurs": {
+            "primaire": "#007bff",
+            "secondaire": "#6c757d"
+        },
+        "typographie": {
+            "police": "Roboto",
+            "taille": "16px"
+        }
+    }
+}

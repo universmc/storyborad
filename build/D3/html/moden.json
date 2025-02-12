@@ -1,0 +1,28 @@
+{
+    "type": "page_wireframe",
+    "page": "index",
+    "style": "minimaliste", // ou "moderne", "classique", etc.
+    "sections": [
+      {
+        "type": "header",
+        "elements": ["logo", "nav"]
+      },
+      {
+        "type": "hero",
+        "elements": ["titre", "sous-titre", "bouton"]
+      },
+      {
+        "type": "contenu",
+        "elements": ["image", "texte"]
+      },
+      {
+        "type": "footer",
+        "elements": ["copyright", "liens"]
+      }
+    ],
+    "contraintes": {
+      "responsive": true,
+      "couleur_principale": "#333333",
+      "police": "Arial"
+    }
+  }

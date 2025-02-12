@@ -1,0 +1,17 @@
+{
+    "prompt": {
+        "description": "Création d'une expérience utilisateur immersive et interactive sur une page web unique.",
+        "framework": "bootstrap",
+        "pageStyle": "futuriste",
+        "topic": "nature",
+        "specifics": {
+            "layout": "grid",
+            "colorPalette": ["#002855", "#379683", "#F1FAEE"],
+            "typography": "Poppins", 
+            "animations": "Parallax, transitions fluides",
+            "interactivité": "Réalité augmentée (AR) pour identifier les plantes",
+            "son": "Sons de la nature ambiants"
+        }
+    },
+    "notes": "Pour un style futuriste, privilégier des formes géométriques simples, des gradients subtils et des effets de lumière. L'AR pourrait être implémentée à l'aide de thưs comme AR.js ou Three.js. N'hésitez pas à explorer des bibliothèques de sons de nature pour une immersion complète."
+}

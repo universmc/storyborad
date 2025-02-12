@@ -1,0 +1,38 @@
+{
+    "projet": {
+      "type": "pageWeb",
+      "style": "moderne",
+      "theme": "science",
+      "structure": "singlePage",
+      "description": "Création d'une page web moderne et interactive sur le thème de la science. La page sera conçue comme une application monopage (Single Page Application) pour une navigation fluide entre les différentes sections. L'interface utilisateur sera intuitive et visuellement attrayante, mettant en avant les contenus scientifiques de manière claire et concise.",
+      "wireframe": {
+        "en-tete": {
+          "logo": "Logo de l'application",
+          "menu": ["Accueil", "Articles", "À propos", "Contact"]
+        },
+        "corps": {
+          "section1": {
+            "titre": "Introduction à la science",
+            "contenu": "Texte explicatif, images, vidéos"
+          },
+          "section2": {
+            "titre": "Les dernières découvertes",
+            "contenu": "Carrousel d'articles, liens vers des ressources externes"
+          },
+          "footer": {
+            "copyright": "© Tous droits réservés",
+            "mentionsLegales": "Lien vers les mentions légales"
+          }
+        }
+      },
+      "fonctionnalites": {
+        "recherche": "Moteur de recherche interne",
+        "formulaireContact": "Formulaire de contact avec validation",
+        "responsivite": "Affichage optimisé pour tous les écrans"
+      },
+      "technologies": {
+        "frontEnd": "HTML, CSS, JavaScript, React",
+        "backEnd": "Node.js, Express.js"
+      }
+    }
+  }

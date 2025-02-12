@@ -1,0 +1,29 @@
+{
+    "prompt": {
+      "description": "Générer un wireframe basique pour la page d'accueil (index) d'un site web.",
+      "éléments_essentiels": [
+        "En-tête (header) : logo, barre de navigation",
+        "Corps (body) : section d'introduction (hero), appel à l'action (CTA), sections de contenu (ex : à propos, services)",
+        "Pied de page (footer) : mentions légales, contact, réseaux sociaux"
+      ],
+      "styles_visuels": [
+        "Disposition en grille",
+        "Typographie claire et lisible",
+        "Espaces blancs suffisants"
+      ],
+      "contraintes_techniques": [
+        "Responsive design (adaptable à tous les écrans)",
+        "Accessibilité (conformité aux normes WCAG)"
+      ],
+      "format_de_sortie": "Image (PNG, SVG) ou code HTML/CSS"
+    },
+    "exemples_de_prompts": [
+      "Crée un wireframe simple pour une page d'accueil de blog avec un en-tête, un carrousel d'articles récents et un pied de page.",
+      "Dessine un wireframe d'une page produit en ligne avec une image du produit, une description détaillée et un bouton d'ajout au panier.",
+      "Génère un wireframe mobile-first pour une application de e-commerce avec un menu hamburger et une barre de recherche."
+    ],
+    "outils_recommandés": [
+      "Logiciels de wireframing : Figma, Sketch, Adobe XD",
+      "Bibliothèques de composants UI : Material Design, Bootstrap"
+    ]
+  }

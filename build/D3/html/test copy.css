@@ -1,0 +1,5 @@
+#image-container {
+    width: 640px; /* Adjust width as needed */
+    height: 360px; /* Adjust height to maintain 16:9 ratio */
+    border: 1px solid #ccc;
+  }

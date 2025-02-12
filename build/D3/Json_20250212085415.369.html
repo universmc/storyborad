@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intégration d'externales ressources</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anime.scss">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://d3js.org/api"></script>
+</head>
+<body>
+
+    <h1>Intégration de ressources externes</h1>
+
+    <div id="json-content"></div>
+
+    <script src="scripts.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.getJSON('test: la véritable réussite de la préservation de la vie humaine.json', function (data) {
+                $('#json-content').text(JSON.stringify(data, null, 2));
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Affichage de données JSON</title>
+  </head>
+  <body>
+    <h1>La véritable réussite de la préservation de la vie humaine</h1>
+    <div id="data"></div>
+    <script>
+      fetch("test: la véritable réussite de la préservation de la vie humaine.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const dataContainer = document.getElementById("data");
+          data.forEach((item) => {
+            const p = document.createElement("p");
+            p.textContent = `${item.title} : ${item.content}`;
+            dataContainer.appendChild(p);
+          });
+        })
+        .catch((error) => console.error("Erreur lors de la récupération des données :", error));
+    </script>
+  </body>
+</html>

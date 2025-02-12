@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon Module ASCII</title>
+</head>
+<body>
+    <input type="text" id="bannerText" placeholder="Entrez votre texte">
+    <button onclick="drawBanner()">Dessiner la bannière</button>
+
+    <script>
+        const { ipcRenderer } = require('electron');
+
+        function drawBanner() {
+            const text = document.getElementById('bannerText').value;
+            ipcRenderer.send('draw-banner', text);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test: La véritable réussite de la préservation de la vie humaine</title>
+<script type="application/json" id="data">
+{
+"title": "Test: La véritable réussite de la préservation de la vie humaine",
+"questions": [
+{
+"question": "Quel est l'âge minimal pour être éligible aux tests de la préservation de la vie humaine ?",
+"options": [
+"18 ans",
+"21 ans",
+"25 ans",
+"30 ans"
+],
+"answer": "18 ans"
+},
+{
+"question": "Combien de temps dure une séance de test de la préservation de la vie humaine ?",
+"options": [
+"1 heure",
+"2 heures",
+"3 heures",
+"4 heures"
+],
+"answer": "2 heures"
+},
+{
+"question": "Combien de tests de la préservation de la vie humaine un individu devrait-il passer par an ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "1"
+}
+]
+}
+</script>
+<script>
+const data = document.getElementById("data").textContent;
+const jsonData = JSON.parse(data);
+const title = jsonData.title;
+const questions = jsonData.questions;
+const container = document.createElement("div");
+container.setAttribute("id", "quiz-container");
+document.body.appendChild(container);
+const h1 = document.createElement("h1");
+h1.textContent = title;
+document.getElementById("quiz-container").appendChild(h1);
+const quiz = document.createElement("div");
+quiz.setAttribute("id", "quiz");
+document.getElementById("quiz-container").appendChild(quiz);
+const currentQuestion = document.createElement("div");
+currentQuestion.setAttribute("id", "current-question");
+quiz.appendChild(currentQuestion);
+const options = document.createElement("div");
+options.setAttribute("id", "options");
+quiz.appendChild(options);
+let currentQuestionIndex = 0;
+displayQuestion();
+function displayQuestion() {
+const currentQuestionData = questions[currentQuestionIndex];
+currentQuestion.textContent = `${currentQuestionIndex + 1}. ${currentQuestionData.question}`;
+options.innerHTML = "";
+currentQuestionData.options.forEach((option, index) => {
+const input = document.createElement("input");
+input.type = "radio";
+input.name = "option";
+input.value = option;
+input.id = `option${index}`;
+const label = document.createElement("label");
+label.htmlFor = `option${index}`;
+label.textContent = option;
+const div = document.createElement("div");
+div.appendChild(input);
+div.appendChild(label);
+options.appendChild(div);
+});
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>

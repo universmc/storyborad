@@ -1,0 +1,27 @@
+{
+  "title": "Développement d'une interface de configuration",
+  "description": "Ce guide décrit les étapes de développement d'une interface de configuration pour une application web.",
+  "table_of_contents": [
+    {
+      "title": "Étape 1: Planification",
+      "content": "Définir les fonctionnalités et les options de configuration de l'application."
+    },
+    {
+      "title": "Étape 2: Conception",
+      "content": "Créer un design de l'interface de configuration en utilisant une grille, des icônes et des couleurs appropriées."
+    },
+    {
+      "title": "Étape 3: Développement",
+      "content": "Coder l'interface de configuration en utilisant HTML, CSS et JavaScript."
+    },
+    {
+      "title": "Étape 4: Tests",
+      "content": "Tester l'interface de configuration sur différents navigateurs et écrans pour s'assurer qu'elle est fonctionnelle et accessible."
+    },
+    {
+      "title": "Étape 5: Maintenance",
+      "content": "Effectuer des mises à jour et des corrections de bugs au besoin."
+    }
+  ],
+  "author": "Nom de l'auteur"
+}

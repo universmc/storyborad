@@ -1,0 +1,32 @@
+[       
+    {
+    "titre": "New",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Présentation de l'agent IA le développement ascii Stickman.ai."
+        },
+        {
+            "sousTitre": "FullStack",
+            "contenuMarkdown": "readme.md"
+        }
+    ]
+    },
+    {
+        "titre": "DevOps",
+        "sousSections": [
+            {
+                "sousTitre": "frontend",
+                "contenuMarkdown": "md/cours-devops.md"
+            },
+            {
+                "sousTitre": "backend",
+                "contenu": "Bonnes pratiques pour le déploiement et la maintenance des applications web."
+            },
+            {
+                "sousTitre": "apiRest",
+                "contenuMarkdown": "md/cours-devops.md"
+            }
+        ]
+    }
+]

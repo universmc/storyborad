@@ -1,0 +1,4 @@
+#sommaire {
+    display: flex;
+    flex-direction: column;
+}

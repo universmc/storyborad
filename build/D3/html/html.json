@@ -1,0 +1,19 @@
+{
+    "type": "page_web",
+    "objectif": "galerie_art",
+    "description": {
+        "contenu": "Une galerie d'art moderne présentant des œuvres d'artistes contemporains. Le design doit être épuré et élégant, mettant en valeur les œuvres d'art.",
+        "style": "minimaliste",
+        "ton": "professionnel"
+    },
+    "wireframe": {
+        "structure": "grille",
+        "éléments": ["en-tête", "corps", "pied de page"],
+        "disposition": "Les œuvres d'art seront présentées en grille dans le corps de la page."
+    },
+    "page_web": {
+        "langage": "HTML, CSS",
+        "framework": "Aucun",
+        "fonctionnalités": ["navigation", "recherche", "détails des œuvres"]
+    }
+}

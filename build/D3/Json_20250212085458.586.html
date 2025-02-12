@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Test: La véritable réussite de la préservation de la vie humaine</h1>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.getJSON('test: la véritable réussite de la préservation de la vie humaine.json', function(data) {
+                console.log(data);
+                // Faire ce que vous voulez avec les données ici
+            });
+        });
+    </script>
+</body>
+</html>
+```
+
+Notez que j'ai inclus `animate.css` et `d3.js` en plus de `jquery` et `styles.css`. Assurez-vous que votre fichier JSON est correctement formaté et accessible depuis l'emplacement spécifié dans l'appel `$.getJSON()`.

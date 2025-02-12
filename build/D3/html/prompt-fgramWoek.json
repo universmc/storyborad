@@ -1,0 +1,66 @@
+{
+    "prompt": {
+      "description": "Générer un prompt détaillé pour la création d'une page web personnalisée.",
+      "framework": [
+        "React",
+        "Vue",
+        "Angular",
+        "next",
+        "Svelte",
+        "Vanilla JavaScript"
+      ],
+      "pageType": [
+        "Single Page Application (SPA)",
+        "Multi-Page Application (MPA)",
+        "Site statique",
+        "Site dynamique"
+      ],
+      "style": [
+        "Minimaliste",
+        "Matérial design",
+        "Futuriste",
+        "Rétro",
+        "Parallax",
+        "Isométrique"
+      ],
+      "topic": [
+        "Portfolio",
+        "Blog",
+        "E-commerce",
+        "Application web",
+        "Jeu",
+        "ASCII art",
+        "Génération de texte"
+      ],
+      "features": [
+        "Animation",
+        "Réactivité",
+        "Accessibilité",
+        "SEO",
+        "Intégration de API",
+        "Dark mode"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Webpack",
+        "Babel"
+      ],
+      "outils": [
+        "vim",
+        "Sketch",
+        "Adobe XD",
+        "Visual Studio Code",
+        "Sublime Text",
+        "Git",
+        "npm"
+      ]
+    },
+    "exemple": {
+      "prompt": "Créer un prompt détaillé pour une application web de blog en React, au style minimaliste, avec une fonctionnalité de dark mode et une intégration d'API pour les commentaires. Utiliser TypeScript pour le typage et Webpack pour la bundlification.",
+      "resultat": "Générer une application web de blog en React, avec une interface utilisateur simple et épurée. Implémenter un système de thèmes clair/sombre pour améliorer l'expérience utilisateur. Intégrer une API de commentaires pour permettre aux utilisateurs d'interagir avec les articles. Utiliser TypeScript pour assurer la qualité du code et Webpack pour optimiser le processus de build."
+    }
+  }

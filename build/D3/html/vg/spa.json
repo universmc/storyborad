@@ -1,0 +1,43 @@
+{
+    "type": "page_web",
+    "style": "modern",
+    "theme": "education",
+    "structure": "single_page",
+    "elements": {
+      "header": {
+        "logo": "Hack",
+        "menu": ["Accueil", "Cours", "À propos", "Contact"]
+      },
+      "hero": {
+        "titre": "Apprenez où que vous soyez !",
+        "sous_titre": "Des cours en ligne pour tous les niveaux.",
+        "image": "image_hero.jpg",
+        "bouton": "Découvrir nos cours"
+      },
+      "contenu": {
+        "sections": [
+          {
+            "titre": "Pourquoi nous choisir ?",
+            "texte": "Lorem ipsum...",
+            "icones": ["livres", "ordinateur", "diplôme"]
+          },
+          {
+            "titre": "Nos cours",
+            "liste_cours": ["Mathématiques", "Langues", "Informatique"]
+          }
+        ]
+      },
+      "footer": {
+        "copyright": "© 2023 Nom de l'école",
+        "reseaux_sociaux": ["Facebook", "Twitter", "Instagram"]
+      }
+    },
+    "couleurs": {
+      "primaire": "#3498db",
+      "secondaire": "#ecf0f1"
+    },
+    "typographie": {
+      "police_titre": "Roboto",
+      "police_texte": "Open Sans"
+    }
+  }
